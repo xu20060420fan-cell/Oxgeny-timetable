@@ -5,6 +5,12 @@
 - **官网 / 下载**：http://112.125.16.84:8080/portal/home
 - **最新 APK（v1.0.17）**：[GitHub Release 下载](https://github.com/xu20060420fan-cell/Oxgeny-timetable/releases/download/v1.0.17/oxygen-schedule-release.apk)
 
+## 界面预览
+
+![首页·今日课表](assets/screenshots/oxy_home.png)
+![更多](assets/screenshots/oxy_more.png)
+![学习通](assets/screenshots/oxy_study.png)
+
 ## 核心功能
 
 1. **截图导入课表**：上传教务课表截图给豆包解析，复制结果即可一键导入课程，不用手动逐条录入。
