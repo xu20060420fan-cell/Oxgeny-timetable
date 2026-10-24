@@ -3,11 +3,12 @@
 全高校通用的轻量课表 App：课表、成绩、考试、日程、体测测算一站式。
 无开屏广告，占用内存小，运行流畅。
 
-> 🆕 **V1.0.0 全新架构版已发布**
+> 🆕 **V1.0.1 已发布**（V1.0.0 Compose 全新架构版的增量更新）
 >
 > 本版本是**用 Jetpack Compose 从零重写**的独立应用，**应用包名与 1.x 老版本不同**，
 > 因此它**不会覆盖安装**老版本 —— 新旧两个可以并存，各用各的。
 > 老版本（1.x）仍保留在下方历史 Release 里，按需下载。
+> 已装 V1.0.0 的**不用重新下载**：App 每次打开会自动检查更新。
 
 ---
 
@@ -15,7 +16,8 @@
 
 | 版本 | 架构 | 说明 | 下载 |
 |---|---|---|---|
-| **V1.0.0**（推荐） | Compose 重写 | 功能与体验全面升级 | **[官网直链](https://xspirt.online/uploads/oxygen-schedule-v1.0.0-code10027.apk)** ｜ [GitHub Release](https://github.com/xu20060420fan-cell/Oxgeny-timetable/releases/download/compose-v1.0.0/oxygen-schedule-v1.0.0.apk) ｜ [官网介绍页](https://xspirt.online/portal/home) |
+| **V1.0.1**（推荐） | Compose 重写 | 新增无限金币档位 · 一号一邮箱 | **[官网直链](https://xspirt.online/uploads/oxygen-schedule-v1.0.1-code10028.apk)** ｜ [GitHub Release](https://github.com/xu20060420fan-cell/Oxgeny-timetable/releases/download/compose-v1.0.1/oxygen-schedule-v1.0.1.apk) ｜ [官网介绍页](https://xspirt.online/portal/home) |
+| V1.0.0 | Compose 重写 | 功能与体验全面升级 | [GitHub Release](https://github.com/xu20060420fan-cell/Oxgeny-timetable/releases/download/compose-v1.0.0/oxygen-schedule-v1.0.0.apk) |
 | 1.0.17 | 原生老架构 | 旧版本，已停止功能更新 | [GitHub Release](https://github.com/xu20060420fan-cell/Oxgeny-timetable/releases/download/v1.0.17/oxygen-schedule-release.apk) |
 
 > ℹ️ **国内下载建议走官网直链。** GitHub 的安装包下载走的是 GitHub 自己的 CDN，
@@ -52,6 +54,15 @@
 12. **日程与考试** —— 支持手动添加日程与考试安排。
 
 ---
+
+## V1.0.1 更新内容
+
+1. **新增「无限金币」档位**：由管理员按学号或姓名开通后，账号永久拥有无限金币 —— 签到不再涨币，用金币的功能（如代签到等）也不扣分。
+2. 无限金币账号不再强制先绑定邮箱，直接就能用需要金币的功能。
+3. 签到页金币区会直接显示「无限金币」字样。
+4. 服务器后台新增「高级设置」页（邮件通知内容可自定义、金币档位按学号/姓名管理、下载限流配额）。
+5. 邮箱改为「一号一邮箱」：换绑会自动解开旧绑定并通知旧邮箱主人；邮箱已被别人占用时会明确拒绝并提示。
+6. 服务器加强了下载限流与流量保护。
 
 ## V1.0.0 更新内容
 
