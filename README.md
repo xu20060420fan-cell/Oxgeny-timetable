@@ -24,11 +24,11 @@
 
 | 版本 | 架构 | 说明 | 下载 |
 |---|---|---|---|
-| **V1.0.3**（推荐） | Compose 重写 | App 内一键覆盖安装 · 学习通登录安全升级 | **[官网直链](https://xspirt.online/uploads/oxygen-schedule-v1.0.3-code10051.apk)** ｜ [GitHub Release](https://github.com/xu20060420fan-cell/Oxgeny-timetable/releases/download/compose-v1.0.3/oxygen-schedule-v1.0.3.apk) ｜ [官网介绍页](https://xspirt.online/portal/home) |
+| **V1.0.3**（推荐） | Compose 重写 | App 内一键覆盖安装 · 学习通登录安全升级 | **[官网直链](https://xspirt.online/uploads/oxygen-schedule-v1.0.3-code10051.apk)** ｜ [GitHub Release](https://github.com/xu20060420fan-cell/WakeUp-timetable/releases/download/compose-v1.0.3/oxygen-schedule-v1.0.3.apk) ｜ [官网介绍页](https://xspirt.online/portal/home) |
 | V1.0.2 | Compose 重写 | 学习通登录态首版 | [官网直链](https://xspirt.online/uploads/oxygen-schedule-v1.0.2-code10029.apk) |
-| V1.0.1 | Compose 重写 | 新增无限金币档位 · 一号一邮箱 | [GitHub Release](https://github.com/xu20060420fan-cell/Oxgeny-timetable/releases/download/compose-v1.0.1/oxygen-schedule-v1.0.1.apk) |
-| V1.0.0 | Compose 重写 | 功能与体验全面升级 | [GitHub Release](https://github.com/xu20060420fan-cell/Oxgeny-timetable/releases/download/compose-v1.0.0/oxygen-schedule-v1.0.0.apk) |
-| 1.0.17 | 原生老架构 | 旧版本，已停止功能更新 | [GitHub Release](https://github.com/xu20060420fan-cell/Oxgeny-timetable/releases/download/v1.0.17/oxygen-schedule-release.apk) |
+| V1.0.1 | Compose 重写 | 新增无限金币档位 · 一号一邮箱 | [GitHub Release](https://github.com/xu20060420fan-cell/WakeUp-timetable/releases/download/compose-v1.0.1/oxygen-schedule-v1.0.1.apk) |
+| V1.0.0 | Compose 重写 | 功能与体验全面升级 | [GitHub Release](https://github.com/xu20060420fan-cell/WakeUp-timetable/releases/download/compose-v1.0.0/oxygen-schedule-v1.0.0.apk) |
+| 1.0.17 | 原生老架构 | 旧版本，已停止功能更新 | [GitHub Release](https://github.com/xu20060420fan-cell/WakeUp-timetable/releases/download/v1.0.17/oxygen-schedule-release.apk) |
 
 > ℹ️ **国内下载建议走官网直链。** GitHub 的安装包下载走的是 GitHub 自己的 CDN，
 > 在大陆线路常常很慢甚至连不上；官网是服务器直连，最快也最稳。
