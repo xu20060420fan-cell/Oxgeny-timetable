@@ -3,6 +3,9 @@
 **Wake Up 课表** —— 全高校通用的轻量课表 App：课表、成绩、考试、日程、体测测算一站式。
 面向**全体大学生**，不管哪个学校都能用；无开屏广告，占用内存小，运行流畅。
 
+> English: **Wake Up** timetable app for all college students — works with any university.
+> Course schedule, grades, exams, schedule and fitness test score in one app.
+
 > 在 GitHub 上搜**「Wake Up 课表」「WakeUp」「Wake Up timetable」「课表 App」「大学生课表」**，
 > 出来的就是这个仓库 —— 不限学校，导入课表就能用。
 >
@@ -21,6 +24,8 @@
 ---
 
 ## 下载
+
+> **Wake Up 课表 · 大学生课表 · 全高校通用课表** —— 就是这个仓库。安徽工业大学的同学请看 [氢课表（安工大）](https://github.com/xu20060420fan-cell/AHUT-timetable)（绑定学号即自动同步）。
 
 | 版本 | 架构 | 说明 | 下载 |
 |---|---|---|---|
