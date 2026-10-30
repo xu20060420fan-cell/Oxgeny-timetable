@@ -1,14 +1,22 @@
-# 氧课表（Oxgeny）
+# 氧课表 Wake Up（Oxgeny）
 
-全高校通用的轻量课表 App：课表、成绩、考试、日程、体测测算一站式。
-无开屏广告，占用内存小，运行流畅。
+**Wake Up 课表** —— 全高校通用的轻量课表 App：课表、成绩、考试、日程、体测测算一站式。
+面向**全体大学生**，不管哪个学校都能用；无开屏广告，占用内存小，运行流畅。
 
-> 🆕 **V1.0.1 已发布**（V1.0.0 Compose 全新架构版的增量更新）
+> 在 GitHub 上搜**「Wake Up 课表」「WakeUp」「Wake Up timetable」「课表 App」「大学生课表」**，
+> 出来的就是这个仓库 —— 不限学校，导入课表就能用。
+>
+> 如果你就是**安徽工业大学（安工大）**的同学，有专门为安工大做的版本：
+> [**氢课表（安徽工业大学 · 安工大）**](https://github.com/xu20060420fan-cell/AHUT-timetable) —— 绑定学号即自动同步课表、考试、成绩与签到。
+
+> 🆕 **V1.0.3 已发布**（V1.0.0 Compose 全新架构版的增量更新）
 >
 > 本版本是**用 Jetpack Compose 从零重写**的独立应用，**应用包名与 1.x 老版本不同**，
 > 因此它**不会覆盖安装**老版本 —— 新旧两个可以并存，各用各的。
 > 老版本（1.x）仍保留在下方历史 Release 里，按需下载。
-> 已装 V1.0.0 的**不用重新下载**：App 每次打开会自动检查更新。
+> 已装 V1.0.0 / V1.0.1 / V1.0.2 的**不用重新下载**：App 每次打开会自动检查更新。
+>
+> ⚠ **升级到 V1.0.3 后，学习通需要重新登录一次** —— 登录态的保存方式改了（见下方更新内容第 1 条）。
 
 ---
 
@@ -16,7 +24,9 @@
 
 | 版本 | 架构 | 说明 | 下载 |
 |---|---|---|---|
-| **V1.0.1**（推荐） | Compose 重写 | 新增无限金币档位 · 一号一邮箱 | **[官网直链](https://xspirt.online/uploads/oxygen-schedule-v1.0.1-code10028.apk)** ｜ [GitHub Release](https://github.com/xu20060420fan-cell/Oxgeny-timetable/releases/download/compose-v1.0.1/oxygen-schedule-v1.0.1.apk) ｜ [官网介绍页](https://xspirt.online/portal/home) |
+| **V1.0.3**（推荐） | Compose 重写 | App 内一键覆盖安装 · 学习通登录安全升级 | **[官网直链](https://xspirt.online/uploads/oxygen-schedule-v1.0.3-code10051.apk)** ｜ [GitHub Release](https://github.com/xu20060420fan-cell/Oxgeny-timetable/releases/download/compose-v1.0.3/oxygen-schedule-v1.0.3.apk) ｜ [官网介绍页](https://xspirt.online/portal/home) |
+| V1.0.2 | Compose 重写 | 学习通登录态首版 | [官网直链](https://xspirt.online/uploads/oxygen-schedule-v1.0.2-code10029.apk) |
+| V1.0.1 | Compose 重写 | 新增无限金币档位 · 一号一邮箱 | [GitHub Release](https://github.com/xu20060420fan-cell/Oxgeny-timetable/releases/download/compose-v1.0.1/oxygen-schedule-v1.0.1.apk) |
 | V1.0.0 | Compose 重写 | 功能与体验全面升级 | [GitHub Release](https://github.com/xu20060420fan-cell/Oxgeny-timetable/releases/download/compose-v1.0.0/oxygen-schedule-v1.0.0.apk) |
 | 1.0.17 | 原生老架构 | 旧版本，已停止功能更新 | [GitHub Release](https://github.com/xu20060420fan-cell/Oxgeny-timetable/releases/download/v1.0.17/oxygen-schedule-release.apk) |
 
@@ -27,6 +37,7 @@
 - App 每次打开会自动检查更新，收到新版本提示按提示更新即可。
 - **官网**：<https://xspirt.online> —— 除了下载，官网还提供**晚寝签到**、**学习通签到**等
   **直接在网页上就能用**的在线服务，不装 App 也能用。
+- 域名解析不了时，可以用**直链下载页**：<https://xspirt.online/dl/>
 
 ---
 
@@ -52,8 +63,20 @@
 10. **学期设置** —— 在「设置 → 学期设置」填开学日期与学期周数，不再显示猜出来的「第几周」。
 11. **课表导出** —— 导出 ICS 导入系统日历；可直接「保存到文件」自己选位置。
 12. **日程与考试** —— 支持手动添加日程与考试安排。
+13. **学习通刷课助手** —— 配套的油猴脚本与浏览器扩展，在学习通网页上直接用，不用进 App。
 
 ---
+
+## V1.0.3 更新内容
+
+1. **App 内可直接下载并覆盖安装新版本**：更新页点「下载并安装」即可 —— 不用跳浏览器、不用手动找下载目录，**也不用卸载重装**（课表、账号、壁纸全部保留）。没装「安装未知应用」权限时会先带你去系统设置授权。
+2. **更新检查会带上你当前的版本号**：已经是最新版时不再误报「有更新」。
+3. **学习通登录改为「学号 + 会话令牌」**：服务器不再只凭学号认人，登录成功后会发一枚一次性令牌，App 按学号存在本地。**这也是本版本需要重新登录一次学习通的原因** —— 旧版本保存的令牌格式变了。
+2. **修复学习通整片 404**：此前 App 拿到的服务器地址会把路径前缀丢掉，导致学习通相关的课程、成绩、活动接口全部拉不出来。现在地址前缀会正确保留。
+3. **退出登录 / 删除账号时一并清掉学习通令牌**，不在手机里留残余。
+4. **令牌失效会被自动识别并清理**：不会拿着一个永远用不了的令牌反复重试，界面直接提示「请重新登录学习通」。
+5. **备份时学习通令牌按敏感字段加密保存**，不会被当成普通配置丢在明文里。
+6. **服务器侧同步加固**：管理密钥换成 64 位随机值、源码里不再保留默认口令明文、账号列表现在只显示你自己的。
 
 ## V1.0.1 更新内容
 
@@ -79,6 +102,7 @@
 
 ## 关于
 
+- **适用人群**：**面向全体大学生**的通用课表 App（Wake Up 课表），不限学校，导入课表即可用；安徽工业大学（安工大）的同学有专门版：[氢课表（安徽工业大学 · 安工大）](https://github.com/xu20060420fan-cell/AHUT-timetable)。
 - **官网**：<https://xspirt.online> —— 软件下载、晚寝签到、学习通签到、教程与公告都在这里。
 - **在线使用**：不想装 App 也可以，官网的签到服务直接在浏览器里用。
 - **GitHub**：<https://github.com/xu20060420fan-cell> —— 本项目及其它开源工具都在这里。
